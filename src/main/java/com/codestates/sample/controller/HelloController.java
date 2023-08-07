@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
   @GetMapping("/")
-  public String hello() {
-    long pid = ProcessHandle.current().pid();
-    return String.format("Hello World, Hello BE Bootcamp! @PID : %d", pid);
+  public String Todo() {
+    return String.format("To-do Application!");
   }
 }
