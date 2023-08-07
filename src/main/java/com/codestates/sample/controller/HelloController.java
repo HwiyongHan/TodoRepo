@@ -9,6 +9,6 @@ public class HelloController {
 
   @GetMapping("/")
   public String Todo() {
-    return String.format("To-do Application!");
+    return "To-do Application!";
   }
 }
